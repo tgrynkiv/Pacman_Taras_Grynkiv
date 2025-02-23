@@ -124,6 +124,11 @@ function draw() {
   for (let i = 0; i < arrFood.length; i++) {
     arrFood[i].showObject(imgFood);
   }
+
+  for (let i = 0; i < arrCerezas.length; i++) {
+    arrCerezas[i].showObject(imgCerezas);
+  }
+
   //comprovar colisions pacman amb roques
   for (let i = 0; i < arrRocks.length; i++) {
     myPacman.testCollideRock ( arrRocks[i]);
