@@ -142,6 +142,8 @@ function draw() {
       arrFood.splice(i, 1);
     }
   }
+
+
   //pINTEM ScoreBoard
  // textFont(font);
   textSize(20);

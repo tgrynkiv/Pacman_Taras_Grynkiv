@@ -126,6 +126,20 @@ testCollideFood(food) {
     return false;
   }
 }
+
+  // testCollideCerezas(cerezas) {
+  //   let distancia = dist(this.coordXPixels,
+  //     this.coordYPixels, cerezas.coordXPixels, cerezas.coordYPixels);
+  //   // console.log( "Distancia entre pacman i roca: " + distancia);
+  //
+  //   if (distancia < IMAGE_SIZE) {
+  //     console.log("Has agafat una food");
+  //     return true;
+  //   } else {
+  //     console.log("Food massa lluny");
+  //     return false;
+  //   }
+  // }
 spawnPacman(){
   this.coordXPixels = 7*32;
   this.coordYPixels = 7*32;
